@@ -1,0 +1,14 @@
+
+ps -ef | grep java
+
+port
+	netstat -anp |grep 3306
+
+
+firewall
+	exception
+		Failed to stop iptables.service: Unit iptables.service not loaded
+		
+	yum install iptables-services
+	systemctl stop firewalld
+	systemctl stop firewalld.service

@@ -1,0 +1,16 @@
+
+fat
+	/app/cbs/
+	find
+		find /app/cbs/cbs_fat/log/onl*/busi/20*/ -name "80819"
+	grep		
+		grep "timeout" /app/cbs/cbs_fat/log/onl*/busi/20*/80819/80819.log
+	
+fat2
+	find
+			 /app/phpod2cbs/cbs_fat/log/onl/busi/20200915/20004/
+		find /app/phpod2cbs/cbs_fat/log/onl*/busi/20*/ -name "80819.log"
+		find /app/phpod2cbs/cbs_fat/log/onl*/busi/20*/ -name "80819.log"
+		
+	grep		
+		grep "timeout" /app/phpod2cbs/cbs_fat/log/onl*/busi/20*/80819/80819.log
